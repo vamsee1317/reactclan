@@ -10,6 +10,7 @@ import ReactFragments from './components/theory/ReactFragments'
 import ReactEvents from './components/theory/ReactEvents' 
 import Counter from './components/counter/Counter'
 import ReactConditionalRendering from './components/theory/ReactConditionalRendering'
+import ReactRouting from './components/theory/ReactRouting'
 
 export default function App() {
 
@@ -40,6 +41,7 @@ export default function App() {
     <ReactFragments />
     <ReactEvents />
     <ReactConditionalRendering />
+    <ReactRouting />
     <Footer />
     </>
   )
