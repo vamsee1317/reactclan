@@ -11,6 +11,7 @@ import ReactEvents from './components/theory/ReactEvents'
 import Counter from './components/counter/Counter'
 import ReactConditionalRendering from './components/theory/ReactConditionalRendering'
 import ReactRouting from './components/theory/ReactRouting'
+import ReactForms from './components/theory/ReactForms'
 
 export default function App() {
 
@@ -42,6 +43,7 @@ export default function App() {
     <ReactEvents />
     <ReactConditionalRendering />
     <ReactRouting />
+    <ReactForms />
     <Footer />
     </>
   )
