@@ -12,6 +12,8 @@ import Counter from './components/counter/Counter'
 import ReactConditionalRendering from './components/theory/ReactConditionalRendering'
 import ReactRouting from './components/theory/ReactRouting'
 import ReactForms from './components/theory/ReactForms'
+import Login from './components/auth/Login'
+import Register from './components/auth/Register'
 
 export default function App() {
 
@@ -26,14 +28,14 @@ export default function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold bg-blue-200 p-4 text-center text-white">
+      {/* <h1 className="text-3xl font-bold bg-blue-200 p-4 text-center text-white">
         Hello world!
       </h1>
 
-      <Counter />
+      <Counter /> */}
 
     {/* <Head  userName={userName} /> */}
-    <Head  userData={userInfo} />
+    {/* <Head  userData={userInfo} />
     <ReactIntro />
     <ReactComponents />
     <ReactProps />
@@ -44,7 +46,8 @@ export default function App() {
     <ReactConditionalRendering />
     <ReactRouting />
     <ReactForms />
-    <Footer />
+    <Footer /> */}
+    <Register />
     </>
   )
 }
