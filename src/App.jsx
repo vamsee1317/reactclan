@@ -14,6 +14,7 @@ import ReactRouting from './components/theory/ReactRouting'
 import ReactForms from './components/theory/ReactForms'
 import Login from './components/auth/Login'
 import Register from './components/auth/Register'
+import ReactUseEffect from './components/theory/ReactUseEffect'
 
 export default function App() {
 
@@ -48,6 +49,7 @@ export default function App() {
     <ReactForms />
     <Footer /> */}
     <Register />
+    <ReactUseEffect />
     </>
   )
 }
