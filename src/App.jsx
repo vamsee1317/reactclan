@@ -15,6 +15,7 @@ import ReactForms from './components/theory/ReactForms'
 import Login from './components/auth/Login'
 import Register from './components/auth/Register'
 import ReactUseEffect from './components/theory/ReactUseEffect'
+import ReactAxios from './components/theory/ReactAxios'
 
 export default function App() {
 
@@ -50,6 +51,7 @@ export default function App() {
     <Footer /> */}
     <Register />
     <ReactUseEffect />
+    <ReactAxios />
     </>
   )
 }
